@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping(produces="charset=UTF-8")
+@RequestMapping(produces="text/plain;charset=UTF-8")
 public class S_Hello {
 	@RequestMapping(value = "/lx")
 	@ResponseBody
